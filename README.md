@@ -14,6 +14,6 @@
     
 ## Thanks ❤️
 * [Spechide](https://telegram.dog/SpEcHIDe) for his [AnyDlBot](https://github.com/SpEcHiDe/AnyDLBot)
-* [HasibulKabir](https://telegram.dog/HasibulKabir)
+* [HasibulKabir](https://telegram.dog/SJ_Lynx)
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SJ-Lynx/UtubaBot/tree/master)
