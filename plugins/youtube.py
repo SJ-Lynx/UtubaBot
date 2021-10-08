@@ -31,10 +31,10 @@ async def ytdl(_, message):
                                      timedelta(minutes=youtube_next_fetch)
 
     except Exception:
-        await message.reply_text("`Не Удалось Получить Данные Youtube... \n😔 Возможно, Youtube заблокировал ip-адрес сервера \n#error`")
+        await message.reply_text("`Не удалось получить данные YouTube... \n😔 Возможно, Youtube заблокировал ip-адрес сервера \n#error`")
         return
     buttons = InlineKeyboardMarkup(list(create_buttons(formats)))
-    sentm = await message.reply_text("Обработка Url-адреса Youtube 🔎 🔎 🔎")
+    sentm = await message.reply_text("Обработка Url-адреса YouTube 🔎 🔎 🔎")
     try:
         img = wget.download(thumbnail_url)
         im = Image.open(img).convert("RGB")
