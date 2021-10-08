@@ -9,6 +9,6 @@ async def start(client, message):
         [InlineKeyboardButton(
             "Сообщать об ошибках 😊", url="https://t.me/SJ_Lynx")]
     ])
-    welcomed = f"Привет <b>{message.from_user.first_name}</b>\n/help для получения дополнительной информации"
+    welcomed = f"Добро пожаловать на @UTubaBot, Самый продвинутый загрузчик видео и аудио с YouTube в Telegram!\n/help для получения дополнительной информации"
     await message.reply_text(welcomed, reply_markup=joinButton)
     raise StopPropagation
